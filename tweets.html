@@ -6,7 +6,8 @@
   <title>COVID U.S</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/spacelab/bootstrap.min.css" integrity="sha384-F1AY0h4TrtJ8OCUQYOzhcFzUTxSOxuaaJ4BeagvyQL8N9mE4hrXjdDsNx249NpEc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/spacelab/bootstrap.min.css"
+    integrity="sha384-F1AY0h4TrtJ8OCUQYOzhcFzUTxSOxuaaJ4BeagvyQL8N9mE4hrXjdDsNx249NpEc" crossorigin="anonymous">
   <!--Google Fonts Link -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;669&display=swap" rel="stylesheet">
@@ -15,34 +16,40 @@
 </head>
 
 <body>
-  <header class="page-header" role="banner">
-    <h1 class="project-name">The impact of COVID-19 in the United States</h1>
-    
-    <a href="index.html" class="btn">Home</a>
-    <a href="comparison.html" class="btn">Compare Data</a> 
-    <a href="google.html" class="btn">Google Mobility</a>
-    <a href="tweets.html" class="btn">COVID Tweets</a>
-    <a href="pets.html" class="btn">Pet Adoption</a> 
-    <a href="https://github.com/LisaHarrison08/COVID-Trends" class="btn" target="_blank">Github</a> 
-    <a href="https://covid-us.herokuapp.com/index.html" class="btn" target="_blank">COVID Projection</a> 
-  </header>
+  <main>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">The impact of COVID-19 in the United States</h1>
 
-    <div class="hero text-center">
+      <a href="index.html" class="btn">Home</a>
+      <a href="comparison.html" class="btn">Compare Data</a>
+      <a href="google.html" class="btn">Google Mobility</a>
+      <a href="tweets.html" class="btn">COVID Tweets</a>
+      <a href="pets.html" class="btn">Pet Adoption</a>
+      <a href="https://github.com/LisaHarrison08/COVID-Trends" class="btn" target="_blank">Github</a>
+      <a href="https://covid-us.herokuapp.com/index.html" class="btn" target="_blank">COVID Projection</a>
+    </header>
+
+    <!-- <div class="hero text-center">
       <h1>Trump Tweets</h1>
       <p>Search for Trumps Tweet of The Day</p>
-    </div>
-    <div class="container">
+    </div> -->
+
+    <!-- <div class="container"> -->
+
       <!-- Paragraph Text -->
-    <div class="col-lg-12">
-      <div class="card mt-5">
-        <div class="card-body">
-          <p>What was the President of the United States response to the pandemic? <br>Trump + Twitter, what a combination! He is likely the only President in the world that uses Twitter without a team of people managing the account for him.  Select the date and see the tweet!
-          </p>
+      <div class="col-lg-12">
+        <div class="card ml-4 mr-4 mt-5">
+          <div class="card-body">
+            <p>What was the President of the United States response to the pandemic? <br>Trump + Twitter, what a
+              combination! He is likely the only President in the world that uses Twitter without a team of people
+              managing the account for him. Select the date and see the tweet!
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+
       <div class="row margin-top-50">
-        <div class="col-md-12">
+        <div class="col-md-12 ml-4 mr-6">
           <aside class="filters">
             <div class="panel panel-default">
               <div class="panel-heading">Filter Search</div>
@@ -64,7 +71,7 @@
         </div>
         <div class="col-md-10">
           <div id="table-area" class="">
-            <table id="tweet-table" class="table table-striped">
+            <table id="tweet-table" class="table-striped">
               <thead>
                 <tr>
                   <th class="table-head">Date</th>
@@ -79,11 +86,19 @@
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <span class="bottom">Tweets Table</span>
-    </footer>
-  </div>
 
+    </div>
+    <footer class="site-footer">
+      <span class="site-footer-owner"><a href="#top">Back to Top</a></span>
+      <br>
+      <span class="site-footer-owner">
+        <i>View and download our project projections
+          <a href="https://github.com/LisaHarrison08/COVID-Trends" target="_blank">on GitHub</a>
+          <!-- <a href="/contact" target="_blank">Contact Us</a> -->
+        </i>
+      </span>
+    </footer>
+  </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/js/tweetapp.js"></script>
 </body>

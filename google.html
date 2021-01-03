@@ -16,19 +16,20 @@
 </head>
 
 <body>
-  <header class="page-header" role="banner">
-    <h1 class="project-name">The impact of COVID-19 in the United States</h1>
+  <main>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">The impact of COVID-19 in the United States</h1>
 
-    <a href="index.html" class="btn">Home</a>
-    <a href="comparison.html" class="btn">Compare Data</a>
-    <a href="google.html" class="btn">Google Mobility</a>
-    <a href="tweets.html" class="btn">COVID Tweets</a>
-    <a href="pets.html" class="btn">Pet Adoption</a>
-    <a href="https://github.com/LisaHarrison08/COVID-Trends" class="btn" target="_blank">Github</a>
-    <a href="https://covid-us.herokuapp.com/index.html" class="btn" target="_blank">COVID Projection</a>
-  </header>
+      <a href="index.html" class="btn">Home</a>
+      <a href="comparison.html" class="btn">Compare Data</a>
+      <a href="google.html" class="btn">Google Mobility</a>
+      <a href="tweets.html" class="btn">COVID Tweets</a>
+      <a href="pets.html" class="btn">Pet Adoption</a>
+      <a href="https://github.com/LisaHarrison08/COVID-Trends" class="btn" target="_blank">Github</a>
+      <a href="https://covid-us.herokuapp.com/index.html" class="btn" target="_blank">COVID Projection</a>
+    </header>
 
-  <!-- Content -->
+    <!-- Content -->
 
     <!-- Paragraph Text -->
     <div class="col-lg-12">
@@ -45,41 +46,49 @@
       </div>
     </div>
 
-      <!--First Chart-->
-      <div class="col-lg-12">
-        <div class="box py-2 mt-5 pb-5 px-0">
-          <div id="myDiv"></div>
-          </div>
-        </div>
- 
-          <!--Second Chart-->
-          <div class="col-lg-12">
-            <div class="box py-2 mt-5 pb-5 px-0">
-              <div id="myDiv2"></div>
-
-        <!--Selectors-->
-        
-              <h4>Select State:</h4>
-              <div id="stateData" class="panel-body pl-8 mt-3 pb-5 px-0">
-                <select id="selDataset"></select>
-              </div>
-              <h4>Select State:</h4>
-              <div id="stateData2" class="panel-body py-2 mt-3 pb-5 px-0">
-                <select id="selDataset2"></select>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!--First Chart-->
+    <div class="col-lg-12">
+      <div class="box py-2 mt-5 pb-5 px-0">
+        <div id="myDiv"></div>
       </div>
-
-
-
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="static/js/google.js"></script>
+    <!--Second Chart-->
+    <div class="col-lg-12">
+      <div class="box py-2 mt-5 pb-5 px-0">
+        <div id="myDiv2"></div>
+
+        <!--Selectors-->
+
+        <h4>Select State:</h4>
+        <div id="stateData" class="panel-body pl-8 mt-3 pb-5 px-0">
+          <select id="selDataset"></select>
+        </div>
+        <h4>Select State:</h4>
+        <div id="stateData2" class="panel-body py-2 mt-3 pb-5 px-0">
+          <select id="selDataset2"></select>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <footer class="site-footer">
+      <span class="site-footer-owner"><a href="#top">Back to Top</a></span>
+      <br>
+      <span class="site-footer-owner">
+        <i>View and download our project projections
+          <a href="https://github.com/LisaHarrison08/COVID-Trends" target="_blank">on GitHub</a>
+          <!-- <a href="/contact" target="_blank">Contact Us</a> -->
+        </i>
+      </span>
+    </footer>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="static/js/google.js"></script>
 </body>
 
 </html>
