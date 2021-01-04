@@ -30,7 +30,7 @@ The website consists of 5 pages total, including:
 
 At the top of every page, the website includes a navigation menu that:
 
-* Which allows users to return to the home page from any page.
+* Allows users to return to the home page from any page.
 * Provides a link to each individual visualization page.
 * Includes two external links: to the Github Repository and the follow up COVID projections dashboard
 * Is responsive.
