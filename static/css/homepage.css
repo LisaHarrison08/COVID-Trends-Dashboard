@@ -93,6 +93,7 @@ h2 {
 p {
 	display: block;
 	box-align: center;
+	font-size: 16px;
 	margin-block-start: 1em;
 	margin-block-end: 1em;
 	margin-inline-start: 0px;
@@ -100,9 +101,13 @@ p {
 }
 
 h5 {
+	font-style: Ubuntu, sans-serif;	
+}
+h3 {
 	font-style: Ubuntu, sans-serif;
-	text-align: center;
-	text-decoration: underline;	
+	/* text-align: left; */
+	/* text-decoration: underline; */
+	margin-top: 10px;	
 }
 
 @media screen {
